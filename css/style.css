@@ -4,6 +4,11 @@ body
   margin: 0;
 }
 
+.header
+{
+  position: relative;
+}
+
 .titulo
 {
   font-size: 70px;
@@ -34,8 +39,14 @@ body
   border: 2px solid #1F313C;
   margin: 10px;
   padding: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
+
+.guitarra ol
+{
+  padding: 0;
+}
+
 .title-b
 {
   font-size: 50px;
@@ -57,6 +68,8 @@ body
 {
   font-size: 24px;
   margin-right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .menu li
@@ -78,9 +91,23 @@ body
 .right
 {
   float: right;
+  position: relative;
+  top: -125px;
 }
 
 .left
 {
   float: left;
+  position: relative;
+  top: 80px;
+}
+
+.contenedor-guitarra-a
+{
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b
+{
+  margin-left: 400px;
 }
