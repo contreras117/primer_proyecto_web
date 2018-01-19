@@ -1,16 +1,21 @@
 body
 {
   font-family: "Allerta",sans-serif;
+  margin: 0;
 }
+
 .titulo
 {
   font-size: 70px;
   font-family: "Montserrat",sans-serif;
+  margin-bottom: 0;
+  margin-top: 70px;
 }
 
 .title-a
 {
   font-size: 24px;
+  margin-top: 0;
 }
 
 .guitarras
@@ -24,23 +29,58 @@ body
   font-family: "Montserrat",sans-serif;
 }
 
+.guitarra
+{
+  border: 2px solid #1F313C;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
 .title-b
 {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .portada
 {
   background-image: url("../Media/background.png");
   color: white;
+  padding: 20px;
 }
 
+.portada button
+{
+  margin-bottom: 70px;
+}
 .menu
 {
   font-size: 24px;
+  margin-right: 0;
+}
+
+.menu li
+{
+  margin-left: 30px;
 }
 
 .menu li, .menu, .logotipo
 {
   display: inline-block;
+}
+
+.contenedor
+{
+  width: 800px;
+  margin: auto;
+}
+
+.right
+{
+  float: right;
+}
+
+.left
+{
+  float: left;
 }
