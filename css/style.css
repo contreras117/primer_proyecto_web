@@ -23,6 +23,14 @@ body
   margin-top: 0;
 }
 
+button
+{
+  border-radius: 5px;
+  background: #fd342e;
+  color: white;
+  border: none;
+  padding: 7px;
+}
 .guitarras
 {
   color: #1F313C;
@@ -39,6 +47,7 @@ body
   border: 2px solid #1F313C;
   margin: 10px;
   padding: 10px;
+  border-radius: 8px;
   /* overflow: hidden; */
 }
 
@@ -110,4 +119,20 @@ body
 .contenedor-guitarra-b
 {
   margin-left: 400px;
+}
+
+.footer
+{
+  background: #273b47;
+}
+
+.contacto img, .contacto strong
+{
+  display: block;
+}
+
+.contacto a
+{
+  color: white;
+  text-decoration: none;
 }
