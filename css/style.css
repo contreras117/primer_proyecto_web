@@ -21,15 +21,17 @@ body
 {
   font-size: 24px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-button
+.button
 {
   border-radius: 5px;
   background: #fd342e;
   color: white;
   border: none;
   padding: 7px;
+  margin-top: 10px;
 }
 .guitarras
 {
@@ -135,4 +137,58 @@ button
 {
   color: white;
   text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.contacto
+{
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+footer > .contenedor
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.formulario
+{
+  color: white;
+  display: flex;
+  width: 60%;
+  padding: 5% 2%;
+}
+
+.formulario label, .sexo, .intereses
+{
+  margin-bottom: 4%;
+}
+
+.sexo
+{
+  margin-top: 4%;
+}
+
+.footer_col1, .footer_col2
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.footer_col1
+{
+  margin-right: 2%;
+}
+
+.footer_col2
+{
+  align-items: flex-start;
 }
