@@ -2,6 +2,7 @@ table
 {
   width: 100%;
 }
+
 th
 {
   background: #273b47;
@@ -24,4 +25,5 @@ table,td
 .tabla
 {
   padding: 50px 0;
+  flex: 1;
 }
